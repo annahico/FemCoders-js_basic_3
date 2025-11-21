@@ -11,7 +11,7 @@
 7. Escribe una función que tome un número como argumento y devuelva su raíz cuadrada.
 8. Escribe una función que tome un número como argumento y devuelva su valor absoluto.
 9. Escribe una función que tome un número decimal como argumento y devuelva el número redondeado al entero más cercano.
-10. Escribe una función que genere y devuelva un número aleatorio entre 0 y 1.
+10. Escribe una función que genere y devuelva un número aleatorio entre 0 y 100.
 
 
 ## Letras:
