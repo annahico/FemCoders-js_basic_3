@@ -27,13 +27,15 @@ let raizCuadrada  = (num) => Math.sqrt(num); //es una función incorporada en Ja
 console.log(raizCuadrada(64));
 
 // Escribe una función que tome un número como argumento y devuelva su valor absoluto.
-
-
+const valorAbsoluto = num => Math.abs(num);
+console.log(valorAbsoluto(34));
+console.log(valorAbsoluto(-47));
 
 // Escribe una función que tome un número decimal como argumento y devuelva el número redondeado al entero más cercano.
+const redondear = num => Math.round(num);
+console.log(redondear(43.6));
+console.log(redondear(12.3));
 
-
-
-// Escribe una función que genere y devuelva un número aleatorio entre 0 y 1.
-
-
+// Escribe una función que genere y devuelva un número aleatorio entre 0 y 100.
+const numeroAleatorio = () => Math.floor(Math.random() * 10) + 1;
+console.log(numeroAleatorio());
