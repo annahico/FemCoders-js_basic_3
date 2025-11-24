@@ -31,21 +31,32 @@ const verduras = ["Lechuga", "Zanahoria"];
 console.log(unirArrays(frutas, verduras)); 
 
 // 6. Escribe una función que tome un array de números como argumento y devuelva el número máximo dentro del array.
+const encontrarMaximo = num => Math.max(...num);
 
-
+const valores = [12, 878, 5689, 1, 612, 478]
+console.log(encontrarMaximo(valores));
 
 // 7. Escribe una función que tome un array de números como argumento y devuelva el número mínimo dentro del array.
+const encontrarMinimo = num => Math.min(...num);
 
-
+const valoresMin = [4, 7859, 10, 458777, 25, 41]
+console.log(encontrarMinimo(valoresMin));
 
 // 8. Escribe una función que tome un array y un elemento como argumentos, y devuelva la cantidad de veces que el elemento aparece en el array.
+const contarElementos = (a, b) => a.filter( num => num === b).length;
 
-
+const elementos = [1, "hola", 7, 45, 1, 1, "adios", 1, 89, "que tal"];
+const elementoContar = 1;
+console.log(contarElementos(elementos, elementoContar));
 
 // 9. Escribe una función que tome un array como argumento y devuelva un nuevo array sin elementos duplicados.
+const eliminarDuplicados = a => [...new Set(a)];
 
-
+const arrayConDuplicados = [1, 2, 3, 4, 4, 5, 1, 2, 6, 7, 8, 8];
+console.log(eliminarDuplicados(arrayConDuplicados));
 
 // 10. Escribe una función que tome un array como argumento y devuelva un nuevo array con los elementos en orden inverso.
+const invertirArray = a => a.toReversed();
 
-
+const arrayOriginal = [ "primero", "segundo", "tercero", "cuarto"];
+console.log(invertirArray(arrayOriginal));
