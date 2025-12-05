@@ -1,6 +1,6 @@
 # 🎠 Ejercicios básicos en Javascript parte III
 
-## Números:
+## Números
 
 1. Escribe una función que tome dos números como argumentos y devuelva su suma.
 2. Escribe una función que tome dos números como argumentos y devuelva su resta.
@@ -13,8 +13,7 @@
 9. Escribe una función que tome un número decimal como argumento y devuelva el número redondeado al entero más cercano.
 10. Escribe una función que genere y devuelva un número aleatorio entre 0 y 100.
 
-
-## Letras:
+## Letras
 
 1. Escribe una función que tome dos cadenas de texto como argumentos y devuelva su concatenación.
 2. Escribe una función que tome una cadena de texto como argumento y devuelva su longitud.
@@ -27,8 +26,7 @@
 9. Escribe una función que tome una cadena de texto como argumento y devuelva true si es un palíndromo (se lee igual de izquierda a derecha y de derecha a izquierda), o false si no lo es.
 10. Escribe una función que tome una cadena de texto como argumento y devuelva la misma cadena con la primera letra de cada palabra en mayúscula.
 
-
-## Arrays:
+## Arrays
 
 1. Escribe una función que tome un array de números como argumento y devuelva la suma de todos sus elementos.
 2. Escribe una función que tome un array de números como argumento y devuelva el promedio de todos sus elementos.
@@ -41,7 +39,7 @@
 9. Escribe una función que tome un array como argumento y devuelva un nuevo array sin elementos duplicados.
 10. Escribe una función que tome un array como argumento y devuelva un nuevo array con los elementos en orden inverso.
 
-## Objetos literales:
+## Objetos literales
 
 1. Escribe una función que tome un objeto literal con una propiedad "nombre" y devuelva el valor de esa propiedad.
 2. Escribe una función que tome un objeto literal con una propiedad "edad" y un número como argumentos, y actualice el valor de la propiedad "edad" con el número dado.
